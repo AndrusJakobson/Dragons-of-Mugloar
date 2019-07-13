@@ -36,7 +36,9 @@ public class DragonsOfMugloarPresenter {
 			if(ad.isEncrypted()) {
 				ad = DecryptionFactory.decrypt(ad);
 			}
-			decryptedAdList.add(ad);
+			if(ad != null) {
+				decryptedAdList.add(ad);
+			}
 		}
 		return decryptedAdList;
 	}
