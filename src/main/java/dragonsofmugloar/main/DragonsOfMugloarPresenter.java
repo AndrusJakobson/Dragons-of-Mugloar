@@ -1,4 +1,4 @@
-package dragonsofmugloar;
+package dragonsofmugloar.main;
 
 import java.util.List;
 
