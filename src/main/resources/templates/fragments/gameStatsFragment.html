@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:th="http://www.thymeleaf.org">
+
+		<body>
+			<div id="gameStats">
+				<div>
+					<p>Game ID: <span th:text="${game?.gameId}"></span></p>
+					<p>lives: <span th:text="${game?.lives}"></span></p>
+					<p>gold: <span th:text="${game?.gold}"></span></p>
+					<p>level: <span th:text="${game?.level}"></span></p>
+					<p>score: <span th:text="${game?.score}"></span></p>
+					<p>highScore: <span th:text="${game?.highScore}"></span></p>
+					<p>turn: <span th:text="${game?.turn}"></span></p>
+				</div>
+				
+				<!-- 
+				<br>
+				<div>
+					<p>People: <span th:text="${reputation.people}"></span></p>
+					<p>State: <span th:text="${reputation.state}"></span></p>
+					<p>Underworld: <span th:text="${reputation.underworld}"></span></p>
+				</div>
+				<br>
+				<div>
+					<p>Reward:<span th:text="${ad.reward}"></span></p>
+					<p>Message:<span th:text="${ad.message}"></span></p>
+					<p>Probability:<span th:text="${ad.probability}"></span></p>
+				</div>
+				<br>
+				<div>
+					<p>Success:<span th:text="${feedback.success}"></span></p>
+					<p>Message:<span th:text="${feedback.message}"></span></p>
+				</div>
+				 -->
+			</div>
+		</body>
+</html>
